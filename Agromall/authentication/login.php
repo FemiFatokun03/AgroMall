@@ -51,14 +51,6 @@
 
                         </form>
 
-                        <p>Or Sign In with - </p>
-
-                        <div class="login_social">
-                                <i class="fab fa-facebook"></i>
-                                <i class="fab fa-google"></i>
-                                <i class="fab fa-linkedin"></i>
-                        </div>
-
                         <p class="create_acc_note">Don't have an account? 
                             <span class="create_acc_btn">Create an account</span>
                         </p>
