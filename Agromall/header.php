@@ -5,7 +5,8 @@
                     </div>
 
                     <div class="menu_icon_bar">
-                        <i class="fas fa-camera-retro menu_icon"></i>
+                        <i class="fi-rr-search menu_icon"></i>
+                        <i class="fi-rr-shopping-cart menu_icon"></i>
                         <i class="fas fa-bars menu_icon"></i>
                     </div>
 
@@ -18,10 +19,18 @@
                             </a>
                         </li>
 
-                        <li class="header_list"> About </li>
+                        <li class="header_list"> 
+                            <a href="about.php">
+                                About
+                            </a>
+                        </li>
                         <li class="header_list"> Categories </li>
                         <li class="header_list" id="gallery_btn"> Shop </li>
-                        <li class="header_list"> Contact Us </li>
+                        <li class="header_list"> 
+                            <a href="contactPage.php">
+                                Contact Us  
+                            </a>
+                        </li>
                         <i class="fi-rr-search header_list"> </i>
 
                         
@@ -30,9 +39,12 @@
                                 </i>
                             </a>
                          
-                        <button class="header_list header_cart_button">
-                            <i class="fi-rr-shopping-cart beside_icon"></i>Cart <span>(0)</span>
-                        </button>
+                         <a href="cart.php" class="header_list header_cart_button">
+                            <button class="">
+                                <i class="fi-rr-shopping-cart beside_icon"></i>Cart <span>(0)</span>
+                            </button>
+                        </a>
+
                     </div>
 </header>
 

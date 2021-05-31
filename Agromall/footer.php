@@ -5,7 +5,7 @@
                         <p class="header_main ">AgroMall</p>
                     </div>
 
-        <div class="footer_main">
+        <!-- <div class="footer_main">
             <div class="footer_first_bar">
                     <h2 class="footer_item_header"> Categories </h2>
                     <p>Item One</p>
@@ -44,6 +44,5 @@
                     <i class="fab fa-twitter footer_social_icons"></i>
                     <i class="fab fa-linkedin footer_social_icons"></i>
                 </div>
-            </div>
-        </div>
+            </div>-->
 </div>

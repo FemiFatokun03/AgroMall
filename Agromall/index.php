@@ -14,8 +14,26 @@
             <?php include 'header.php' ?>
 
             <div class="about_widget">
-                <h3>Profound Agricultural Market place.</h3>
+                <div  class="about_text_widget">
+                    <h3>Profound Agricultural Market place.</h3>
+                    <p class="about_text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                        Consectetur voluptate fugit natus enim qui aspernatur adipisci?
+                        Explicabo magni earum nesciunt quisquam veritatis! Cum, reiciendis commodi? 
+                        Quo non earum nostrum alias.
+                    </p>
+
+                    <button class="about_btn">Shop Now! 
+                        <i class="fi-rr-shopping-cart right_icon"></i>
+                    </button>
+                </div>
+
+                <div class="about_illus">
+                    <img class="about_image" src="illustration/Farmer-bro.svg" />
+                </div>
             </div>
+
+            
 
             <div class="index_items">
                 <h3>
@@ -33,8 +51,105 @@
 
             <div class="product_item_widget">
                 <div class="product_item">
-                    <img src="images/1.jpg" alt="" class="product_img">
-                    <p class="product_name">Tractor</p>
+                    <a href="product-checkout.php">
+                        <img src="images/product1.jpg" alt="" class="product_img">
+                        <p class="product_name">Lettuce</p>
+
+                        <div class="star_collection">
+                            <i class="fi-rr-star"></i>
+                            <i class="fi-rr-star"></i>
+                            <i class="fi-rr-star"></i>
+                            <i class="fi-rr-star"></i>
+                            <i class="fi-rr-star"></i>
+                            <p class="product_price">$500</p>
+                        </div>
+
+                        </a>
+
+                    <button class="add_to_cart">
+                        Add to cart <i class="fi-rr-shopping-cart-add"></i>
+                    </button>
+                </div>
+
+                <div class="product_item">
+                <a href="product-checkout.php">
+                    <img src="images/product2.jpg" alt="" class="product_img">
+                    <p class="product_name">Eggs</p>
+
+                    <div class="star_collection">
+                        <i class="fi-rr-star"></i>
+                        <i class="fi-rr-star"></i>
+                        <i class="fi-rr-star"></i>
+                        <i class="fi-rr-star"></i>
+                        <i class="fi-rr-star"></i>
+                        <p class="product_price">$500</p>
+                    </div>
+                </a>
+
+                    <button class="add_to_cart">
+                        Add to cart <i class="fi-rr-shopping-cart-add"></i>
+                    </button>
+                </div>
+                <div class="product_item">
+                    <a href="product-checkout.php">
+                        <img src="images/product3.jpg" alt="" class="product_img">
+                        <p class="product_name">Eggs</p>
+
+                        <div class="star_collection">
+                            <i class="fi-rr-star"></i>
+                            <i class="fi-rr-star"></i>
+                            <i class="fi-rr-star"></i>
+                            <i class="fi-rr-star"></i>
+                            <i class="fi-rr-star"></i>
+                            <p class="product_price">$500</p>
+                        </div>
+                    </a>
+
+                    <button class="add_to_cart">
+                        Add to cart <i class="fi-rr-shopping-cart-add"></i>
+                    </button>
+                </div>
+                <div class="product_item">
+                    <a href="product-checkout.php">
+                        <img src="images/product4.jpg" alt="" class="product_img">
+                        <p class="product_name">Chicken</p>
+                        
+                        <div class="star_collection">
+                            <i class="fi-rr-star"></i>
+                            <i class="fi-rr-star"></i>
+                            <i class="fi-rr-star"></i>
+                            <i class="fi-rr-star"></i>
+                            <i class="fi-rr-star"></i>
+                            <p class="product_price">$500</p>
+                        </div>
+                    </a>
+
+                    <button class="add_to_cart">
+                        Add to cart <i class="fi-rr-shopping-cart-add"></i>
+                    </button>
+                </div>
+                <div class="product_item">
+                    <a href="product-checkout.php">
+                        <img src="images/product5.jpg" alt="" class="product_img">
+                        <p class="product_name">Fruits</p>
+
+                        <div class="star_collection">
+                            <i class="fi-rr-star"></i>
+                            <i class="fi-rr-star"></i>
+                            <i class="fi-rr-star"></i>
+                            <i class="fi-rr-star"></i>
+                            <i class="fi-rr-star"></i>
+                            <p class="product_price">$500</p>
+                        </div>
+                    </a>
+
+                    <button class="add_to_cart">
+                        Add to cart <i class="fi-rr-shopping-cart-add"></i>
+                    </button>
+                </div>
+                <div class="product_item">
+                    <img src="images/product6.jpg" alt="" class="product_img">
+                    <p class="product_name">Mushroom</p>
 
                     <div class="star_collection">
                         <i class="fi-rr-star"></i>
@@ -49,95 +164,9 @@
                         Add to cart <i class="fi-rr-shopping-cart-add"></i>
                     </button>
                 </div>
-
                 <div class="product_item">
-                    <img src="images/2.jpg" alt="" class="product_img">
-                    <p class="product_name">Tractor</p>
-
-                    <div class="star_collection">
-                        <i class="fi-rr-star"></i>
-                        <i class="fi-rr-star"></i>
-                        <i class="fi-rr-star"></i>
-                        <i class="fi-rr-star"></i>
-                        <i class="fi-rr-star"></i>
-                        <p class="product_price">$500</p>
-                    </div>
-
-                    <button class="add_to_cart">
-                        Add to cart <i class="fi-rr-shopping-cart-add"></i>
-                    </button>
-                </div>
-                <div class="product_item">
-                    <img src="images/3.jpg" alt="" class="product_img">
-                    <p class="product_name">Tractor</p>
-
-                    <div class="star_collection">
-                        <i class="fi-rr-star"></i>
-                        <i class="fi-rr-star"></i>
-                        <i class="fi-rr-star"></i>
-                        <i class="fi-rr-star"></i>
-                        <i class="fi-rr-star"></i>
-                        <p class="product_price">$500</p>
-                    </div>
-
-                    <button class="add_to_cart">
-                        Add to cart <i class="fi-rr-shopping-cart-add"></i>
-                    </button>
-                </div>
-                <div class="product_item">
-                    <img src="images/4.jpg" alt="" class="product_img">
-                    <p class="product_name">Tractor</p>
-                    
-                    <div class="star_collection">
-                        <i class="fi-rr-star"></i>
-                        <i class="fi-rr-star"></i>
-                        <i class="fi-rr-star"></i>
-                        <i class="fi-rr-star"></i>
-                        <i class="fi-rr-star"></i>
-                        <p class="product_price">$500</p>
-                    </div>
-
-                    <button class="add_to_cart">
-                        Add to cart <i class="fi-rr-shopping-cart-add"></i>
-                    </button>
-                </div>
-                <div class="product_item">
-                    <img src="images/5.jpg" alt="" class="product_img">
-                    <p class="product_name">Tractor</p>
-
-                    <div class="star_collection">
-                        <i class="fi-rr-star"></i>
-                        <i class="fi-rr-star"></i>
-                        <i class="fi-rr-star"></i>
-                        <i class="fi-rr-star"></i>
-                        <i class="fi-rr-star"></i>
-                        <p class="product_price">$500</p>
-                    </div>
-
-                    <button class="add_to_cart">
-                        Add to cart <i class="fi-rr-shopping-cart-add"></i>
-                    </button>
-                </div>
-                <div class="product_item">
-                    <img src="images/1.jpg" alt="" class="product_img">
-                    <p class="product_name">Tractor</p>
-
-                    <div class="star_collection">
-                        <i class="fi-rr-star"></i>
-                        <i class="fi-rr-star"></i>
-                        <i class="fi-rr-star"></i>
-                        <i class="fi-rr-star"></i>
-                        <i class="fi-rr-star"></i>
-                        <p class="product_price">$500</p>
-                    </div>
-
-                    <button class="add_to_cart">
-                        Add to cart <i class="fi-rr-shopping-cart-add"></i>
-                    </button>
-                </div>
-                <div class="product_item">
-                    <img src="images/2.jpg" alt="" class="product_img">
-                    <p class="product_name">Tractor</p>
+                    <img src="images/sheep.jpg" alt="" class="product_img">
+                    <p class="product_name">Sheep</p>
 
                     <div class="star_collection">
                         <i class="fi-rr-star"></i>
@@ -152,7 +181,20 @@
                         Add to cart <i class="fi-rr-shopping-cart-add right_icon"></i>
                     </button>
                 </div>
+
+                <div class="total_widget">
+                        <p> Check more products 
+                            <i class="fi-rr-angle-right right_icon"></i>
+                        </p>
+                </div>
             </div>
+
+                <h3>
+                    <i class="fi-rr-comment-alt">
+                    </i>
+                    Reviews 
+                </h3>
+
             </div>
 
             <?php include 'footer.php' ?>
