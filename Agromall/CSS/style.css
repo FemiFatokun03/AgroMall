@@ -615,7 +615,7 @@ header{
     width:20%;
     height:30rem;
     border-radius: 0.3rem;
-    background:#f2f2f2;
+    box-shadow:0px 0px 6px #ececec;
     margin:1.5%;
     padding:3% 2%;
 }
@@ -641,6 +641,7 @@ header{
     color:black;
     margin:2.2rem 0;
     font-weight:bolder;
+    cursor:pointer;
 }
 .order_inputs{
     display:Flex;
@@ -675,6 +676,7 @@ header{
     font-size:1rem;
     font-weight:bolder;
     text-align:center;
+    padding:0 1%;
 }
 .user_order_table{
     display:flex;
@@ -688,18 +690,19 @@ header{
     font-weight:300;
     text-align: center;
     font-family:kum;
+    padding:0 1%;
 }
 .even_row{
-    background:rgb(207, 246, 207);
+    background:rgb(239, 252, 239);
 }
 .numbers{
     width:8%;
 }
 .ref{
-    width:10%;
+    width:15%;
 }
 .ord_date{
-    width:10%;
+    width:13%;
 }
 .prod_name{
     width:20%;
@@ -711,10 +714,12 @@ header{
     width:12%;
 }
 .status{
-    width:12.5%;
+    width:5%;
 }
 .price{
     width:15%;
+    color:rgb(52, 52, 135);
+    font-weight:bolder;
 }
 .more_orders{
     background:rgb(134, 250, 134);
@@ -956,3 +961,53 @@ header{
     width:23%;
 }
 /* End of Shop Widget */
+
+/*  Account | profile Details */
+.account_details{
+    width:100%;
+    height:30rem;
+    box-shadow:0px 0px 2px #f2f2f2;
+    vertical-align: top;
+}
+.user_details{
+    box-shadow:0px 0px 2px #f2f2f2;
+    display:inline-block;
+    width:40%;
+    padding:2.5%;
+    margin:2%;
+    border-radius:0.2rem;
+    vertical-align:top;
+}
+.user_details h4{
+    width:80%;
+}
+.user_details span{
+    position:relative;
+    left:70%;
+}
+.account_image{
+    width:30%;
+    margin:0 auto;
+    padding:1% 0;
+    text-align:center;
+}
+.account_image img{
+    width:7rem;
+    height:7rem;
+    border-radius:50%;
+    object-fit:cover;
+    padding:1%;
+    box-shadow:0px 0px 5px rgb(116, 245, 116);
+}
+.account_image i{
+    font-size:1.2rem;
+    background:white;
+    color:black;
+    padding:3%;
+    border-radius:10rem;
+    position:relative;
+    top: -10%;
+    left:-20%;
+    cursor:pointer;
+}
+/*  End of Account | profile Details */
