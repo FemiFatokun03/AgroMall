@@ -18,7 +18,7 @@
 
                 <div class="admin_info">
                     <!-- <img src="images/sheep.jpg" alt="" class="admin_image"> -->
-                    <h3>AgroMall User</h3>
+                    <h3>AgroMall Admin </h3>
                 </div>
 
                 <div class="side_bar_list">
@@ -66,136 +66,124 @@
                     </div>
                 </div>
 
-            <h3><i class="fi-rr-shopping-cart beside_icon"></i>Orders  </h3>
-
-            <div class="order_inputs">
-                <div class="order_inputs_cont">
-                    <input type="text" class="search_order" placeholder="Search Order" />
-                    <i class="fi-rr-search input_right_icon"></i>
-                </div>
-            </div>
-
             
-            <div class="order_table_header">
-                    <li class="numbers">S/N</li>
-                    <li class="ref">Ref</li>
-                    <li class="ord_date">Order date</li>
-                    <li class="prod_name">Product</li>
-                    <li class="prod_type">Product Type</li>
-                    <li class="location">Location</li>
-                    <li class="status">Status</li>
-                    <li class="price">Price</li>
-            </div>
+                <h3><i class="fi-rr-paper-plane beside_icon"></i>Customers orders  </h3>
 
-                <div class="user_order_table">
-                        <li class="numbers">1</li>
-                        <li class="ref">#fer354</li>
-                        <li class="ord_date">12/19/20</li>
-                        <li class="prod_name">Milk Produce</li>
-                        <li class="prod_type">Cattle Product</li>
-                        <li class="location">Abuja</li>
-                        <li class="status pending">
-                            <i class="fi-rr-spinner-alt"></i>
-                        </li>
-                        <li class="price">#5600.00</li>
+                    <div class="order_inputs">
+                        <div class="order_inputs_cont">
+                            <input type="text" class="search_order" placeholder="Search my order" />
+                            <i class="fi-rr-search input_right_icon"></i>
+                        </div>
                     </div>
 
-                    <div class="user_order_table even_row">
-                        <li class="numbers">2</li>
-                        <li class="ref">#fer354</li>
-                        <li class="ord_date">12/19/20</li>
-                        <li class="prod_name">Milk Produce</li>
-                        <li class="prod_type">Cattle Product</li>
-                        <li class="location">Abuja</li>
-                        <li class="status pending">
-                            <i class="fi-rr-spinner-alt"></i>
-                        </li>
-                        <li class="price">#5600.00</li>
-                    </div>
-                    <div class="user_order_table">
-                        <li class="numbers">3</li>
-                        <li class="ref">#fer354</li>
-                        <li class="ord_date">12/19/20</li>
-                        <li class="prod_name">Milk Produce</li>
-                        <li class="prod_type">Cattle Product</li>
-                        <li class="location">Abuja</li>
-                        <li class="status pending">
-                            <i class="fi-rr-check"></i>
-                        </li>
-                        <li class="price">#5600.00</li>
-                    </div>
-                    <div class="user_order_table even_row">
-                        <li class="numbers">4</li>
-                        <li class="ref">#fer354</li>
-                        <li class="ord_date">12/19/20</li>
-                        <li class="prod_name">Milk Produce</li>
-                        <li class="prod_type">Cattle Product</li>
-                        <li class="location">Abuja</li>
-                        <li class="status pending">
-                            <i class="fi-rr-check"></i>
-                        </li>
-                        <li class="price">#5600.00</li>
+                    <div class="order_inputs">
+                        <div class="order_inputs_cont">
+                            <select input type="text" class="search_order">
+                                <option> All </option>
+                                <option> Pending </option>
+                                <option> Delivered </option>
+                            </select>
+                        </div>
                     </div>
 
-                    <button class="more_orders">
-                        Check more orders <i class="fi-rr-angle-right right_icon"></i>
-                    </button>
 
-                    <div>
+                    <div class="order_table_header">
+                            <li class="numbers"></li>
+                            <li class="ref"> Voucher </li>
+                            <li class="ord_date">Order date</li>
+                            <li class="ord_date">Del. date</li>
+                            <li class="status">Status</li>
+                            <li class="price">Price (₦)</li>
+                            <li class="price">Delivery Fee (₦)</li>
+                    </div>
 
-                        <h3><i class="fi-rr-mode-portrait beside_icon"></i>Customers  </h3>
-
-                        <div class="cat_cont">
-                            <div class="cat_flex">
-                                <div class="each_user_bar">
-                                    <div class="each_const_cont">
-                                        <img src="images/sheep.jpg" alt="" class="customer_img">
-                                        <h5>Daniel Adewale </h5>
-                                    </div>
-                                    
-                                </div>
-
-                                <div class="each_user_bar">
-                                    <div class="each_const_cont">
-                                        <img src="images/sheep.jpg" alt="" class="customer_img">
-                                        <h5>Daniel Adewale </h5>
-                                    </div>
-                                    
-                                </div>
+                        <div class="user_order_table">
+                                <li class="numbers">1</li>
+                                <li class="ref">#fer354</li>
+                                <li class="ord_date">12-04-20</li>
+                                <li class="ord_date"> 30-05-20 </li>
+                                <li class="status pending">
+                                    <i class="fi-rr-spinner-alt"></i>
+                                </li>
+                                <li class="price">5600.00</li>
+                                <li class="price">00.00</li>
                             </div>
 
-                        </div>
-
-                    </div>
-
-                    <div>
-                        <h3><i class="fi-rr-dollar beside_icon"></i>Transactions  </h3>
+                            <div class="user_order_table even_row">
+                                <li class="numbers">2</li>
+                                <li class="ref">#fer354</li>
+                                <li class="ord_date">12-04-20</li>
+                                <li class="ord_date"> 30-05-20 </li>
+                                <li class="status pending">
+                                    <i class="fi-rr-spinner-alt"></i>
+                                </li>
+                                <li class="price">5600.00</li>
+                                <li class="price">600.00</li>
+                            </div>
+                            <div class="user_order_table">
+                                <li class="numbers">3</li>
+                                <li class="ref">#fer354</li>
+                                <li class="ord_date">12-04-20</li>
+                                <li class="ord_date"> 30-05-20 </li>
+                                <li class="status pending">
+                                    <i class="fi-rr-check"></i>
+                                </li>
+                                <li class="price">5600.00</li>
+                                <li class="price">560.00</li>
+                            </div>
+                            <div class="user_order_table even_row">
+                                <li class="numbers">4</li>
+                                <li class="ref">#fer354</li>
+                                <li class="ord_date">12-04-20</li>
+                                <li class="ord_date"> 30-05-20 </li>
+                                <li class="status pending">
+                                    <i class="fi-rr-check"></i>
+                                </li>
+                                <li class="price">5600.00</li>
+                                <li class="price">600.00</li>
+                            </div>
+        
+                <div>
+                    <h3><i class="fi-rr-dollar beside_icon"></i> Transactions  </h3>
                         <div class="transact_widget">
                                 <div class="order_table_header">
-                                    <li class="numbers">S/N</li>
-                                    <li class="ref">Ref</li>
+                                    <li class="numbers"></li>
+                                    <li class="ref">Reference</li>
                                     <li class="ord_date">Payment date</li>
+                                    <!--  Payment for signifies either One of the product in the cart or the whole Category -->
                                     <li class="prod_name">Payment for</li>
-                                    <li class="prod_type">Category</li>
                                     <li class="location">Location</li>
                                     <li class="status">Status</li>
-                                    <li class="price">Amount</li>
+                                    <li class="price">Amount (₦)</li>
                                 </div>
 
                                 <div class="user_order_table even_row">
-                                    <li class="numbers">4</li>
+                                    <li class="numbers">1</li>
                                     <li class="ref">#fer354</li>
-                                    <li class="ord_date">12/19/20</li>
-                                    <li class="prod_name">Milk Produce</li>
-                                    <li class="prod_type">Cattle Product</li>
+                                    <li class="ord_date">12-09-20</li>
+                                    <li class="prod_name"> Ata rodo and others </li>
                                     <li class="location">Abuja</li>
                                     <li class="status pending">
                                         <i class="fi-rr-check"></i>
                                     </li>
-                                    <li class="price">#5600.00</li>
+                                    <li class="price">5600.00</li>
                                 </div>
 
+                                <div class="user_order_table">
+                                    <li class="numbers">2</li>
+                                    <li class="ref">#fer354</li>
+                                    <li class="ord_date">12-09-20</li>
+                                    <li class="prod_name"> Ata rodo and others </li>
+                                    <li class="location">Abuja</li>
+                                    <li class="status pending">
+                                        <i class="fi-rr-check"></i>
+                                    </li>
+                                    <li class="price">5600.00</li>
+                                </div>
+
+
                         </div>
+
                     </div>
 
         </div>
